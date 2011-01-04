@@ -7,7 +7,6 @@ class UploadListaController {
 
     //static allowedMethods = [save: "POST"]
 
-  
     def save = {
 
       def archivoUpd = params.getAt("archivoCarga") as MultipartFile

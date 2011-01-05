@@ -18,32 +18,44 @@
             <div class="message">${flash.message}</div>
             </g:if>
             <div class="list">
+                    <g:each in="${promotorListaNominalInstanceList}" status="i" var="promotorListaNominalInstance">
+                        <ul>
+                        
+                            <li><g:link action="show" id="${promotorListaNominalInstance.id}">${fieldValue(bean: promotorListaNominalInstance, field: "id")}</g:link>
+                              &nbsp; - &nbsp;
+                              ${fieldValue(bean: promotorListaNominalInstance, field: "promotor")}
                 <table>
                     <thead>
                         <tr>
                         
-                            <g:sortableColumn property="id" title="${message(code: 'promotorListaNominal.id.label', default: 'Id')}" />
+                                        <g:sortableColumn property="id" title="${message(code: 'promotorListaNominal.personaRecomendada.label', default: 'Id')}" />
                         
-                            <th><g:message code="promotorListaNominal.promotor.label" default="Promotor" /></th>
+                                        <th><g:message code="promotorListaNominal.personaRecomendada.label" default="PersonaRecomendada" /></th>
                         
                         </tr>
                     </thead>
                     <tbody>
-                    <g:each in="${promotorListaNominalInstanceList}" status="i" var="promotorListaNominalInstance">
-                        <tr class="${(i % 2) == 0 ? 'odd' : 'even'}">
+                                  <g:each in="${promotorListaNominalInstance.personaRecomendada}" status="j" var="personaRecomendadaInstance">
+                                    <tr class="${(j % 2) == 0 ? 'odd' : 'even'}">
+
+                                      <td><g:link controller="listaNominal" action="show" id="${personaRecomendadaInstance.id}">${fieldValue(bean: personaRecomendadaInstance, field: "claveIfe")}</g:link></td>
+
+                                      <td>${fieldValue(bean: personaRecomendadaInstance, field: "nombre")}</td>
+
+                                    </tr>
+                                  </g:each>
+                                 </tbody>
+                              </table>
+
+                            </li>
                         
-                            <td><g:link action="show" id="${promotorListaNominalInstance.id}">${fieldValue(bean: promotorListaNominalInstance, field: "id")}</g:link></td>
-                        
-                            <td>${fieldValue(bean: promotorListaNominalInstance, field: "promotor")}</td>
-                        
-                        </tr>
+                        </ul>
                     </g:each>
-                    </tbody>
-                </table>
+
             </div>
-            <div class="paginateButtons">
+            <!--div class="paginateButtons">
                 <g:paginate total="${promotorListaNominalInstanceTotal}" />
-            </div>
+            </div-->
         </div>
     </body>
 </html>

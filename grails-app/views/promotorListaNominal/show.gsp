@@ -30,6 +30,16 @@
                         </tr>
                     
                         <tr class="prop">
+                            <td valign="top" class="name"><g:message code="promotorListaNominal.personaRecomendada.label" default="Persona Recomendada" /></td>
+                            <td valign="top" style="text-align: left;" class="value">
+                                <ul>
+                                <g:each in="${promotorListaNominalInstance.personaRecomendada}" var="p">
+                                    <li><g:link controller="listaNominal" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></li>
+                                </g:each>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="prop">
                             <td valign="top" class="name"><g:message code="promotorListaNominal.promotor.label" default="Promotor" /></td>
                             
                             <td valign="top" class="value"><g:link controller="promotor" action="show" id="${promotorListaNominalInstance?.promotor?.id}">${promotorListaNominalInstance?.promotor?.encodeAsHTML()}</g:link></td>

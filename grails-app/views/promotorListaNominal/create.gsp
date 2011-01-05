@@ -36,6 +36,15 @@
                                     <g:select name="promotor.id" from="${elecciones.Promotor.list()}" optionKey="id" value="${promotorListaNominalInstance?.promotor?.id}"  />
                                 </td>
                             </tr>
+
+                            <tr class="prop">
+                                <td valign="top" class="name">
+                                  <label for="personaRecomendada"><g:message code="promotorListaNominal.personaRecomendada.label" default="Persona Recomendada" /></label>
+                                </td>
+                                <td valign="top" class="value ${hasErrors(bean: promotorListaNominalInstance, field: 'personaRecomendada', 'errors')}">
+                                    <g:select name="personaRecomendada" from="${elecciones.ListaNominal.list()}" multiple="yes" optionKey="id" size="5" value="${promotorListaNominalInstance?.personaRecomendada*.id}" />
+                                </td>
+                            </tr>
                         
                         </tbody>
                     </table>

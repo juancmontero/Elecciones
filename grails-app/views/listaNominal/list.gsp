@@ -32,8 +32,6 @@
                         
                             <g:sortableColumn property="distrito" title="${message(code: 'listaNominal.seccion.label', default: 'Secci&oacute;n')}" />
                         
-                            <!--g:sortableColumn property="edad" title="${message(code: 'listaNominal.edad.label', default: 'Edad')}" /-->
-                        
                         </tr>
                     </thead>
                     <tbody>
@@ -49,8 +47,6 @@
                             <td>${fieldValue(bean: listaNominalInstance, field: "nombre")}</td>
                         
                             <td>${fieldValue(bean: listaNominalInstance, field: "seccion")}</td>
-                        
-                            <!--td>${fieldValue(bean: listaNominalInstance, field: "edad")}</td..>
                         
                         </tr>
                     </g:each>

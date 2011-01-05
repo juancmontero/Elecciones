@@ -6,6 +6,6 @@ class Votos {
   ListaNominal persona;
 
     static constraints = {
-      idxVoto(unique:['persona'])
+      persona(unique:true)
     }
 }

@@ -10,7 +10,10 @@
             <span class="menuButton"><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></span>
         </div>
         <div class="body">
-          <h1><g:message code="${flash.message}"/></h1>
+          <h1><g:message code="default.UploadListaController.title.label" /></h1>
+          <g:if test="${flash.message}">
+            <div class="message">${flash.message}</div>
+          </g:if>
           <g:if test="${flash.error != null}">
             <div class="errors">
               <g:message code="${flash.error}"/>
@@ -67,15 +70,11 @@
                         <input type="file" name="archivoCarga"/>
                       </td>
                     </tr>
-                    <tr class="prop">
-                      <td valign="top" class="name" colspan="2">
-                        <div class="buttons">
-                          <span class="button"><g:submitButton name="guardar" class="save" value="Guardar" /></span>
-                        </div>
-                      </td>
-                    </tr>
                 </tbody>
               </table>
+            </div>
+            <div class="buttons">
+                          <span class="button"><g:submitButton name="guardar" class="save" value="${message(code: 'default.button.upload.label', default: 'Upload')}" /></span>
             </div>
           </g:form>
     </body>

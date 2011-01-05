@@ -32,7 +32,7 @@
                         
                             <g:sortableColumn property="email" title="${message(code: 'promotor.email.label', default: 'Email')}" />
                         
-                            <g:sortableColumn property="municipio" title="${message(code: 'promotor.municipio.label', default: 'Municipio')}" />
+                            <g:sortableColumn property="seccion" title="${message(code: 'promotor.seccion.label', default: 'Seccion')}" />
                         
                         </tr>
                     </thead>
@@ -50,7 +50,7 @@
                         
                             <td>${fieldValue(bean: promotorInstance, field: "email")}</td>
                         
-                            <td>${fieldValue(bean: promotorInstance, field: "municipio")}</td>
+                            <td>${fieldValue(bean: promotorInstance, field: "seccion")}</td>
                         
                         </tr>
                     </g:each>

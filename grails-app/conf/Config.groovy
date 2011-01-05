@@ -109,6 +109,7 @@ grails.plugins.springsecurity.securityConfigType = SecurityConfigType.InterceptU
         '/secRole/**':                    ['ROLE_ADMIN', 'IS_AUTHENTICATED_FULLY'],
         '/secUserSecRole/**':             ['ROLE_ADMIN', 'IS_AUTHENTICATED_FULLY'],
         '/secRequestmap/**':              ['ROLE_ADMIN', 'IS_AUTHENTICATED_FULLY'],
-        '/votos/**':              ['ROLE_USER', 'IS_AUTHENTICATED_FULLY'],
+        '/votos/**':                      ['ROLE_USER', 'IS_AUTHENTICATED_FULLY'],
+        '/agregaVotos/**':                ['ROLE_USER', 'IS_AUTHENTICATED_FULLY'],
 	    '/**':                            ['IS_AUTHENTICATED_ANONYMOUSLY'],
         ]

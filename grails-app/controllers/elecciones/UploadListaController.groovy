@@ -9,6 +9,9 @@ class UploadListaController {
 
     def save = {
 
+      if(params.size() == 2)
+        return;
+
       def archivoUpd = params.getAt("archivoCarga") as MultipartFile
       //print(archivoUpd.contentType);
       def StringBuffer erroresBf = new StringBuffer()

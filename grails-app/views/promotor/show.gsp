@@ -58,9 +58,9 @@
                         </tr>
                     
                         <tr class="prop">
-                            <td valign="top" class="name"><g:message code="promotor.municipio.label" default="Municipio" /></td>
+                            <td valign="top" class="name"><g:message code="promotor.seccion.label" default="Seccion" /></td>
                             
-                            <td valign="top" class="value">${fieldValue(bean: promotorInstance, field: "municipio")}</td>
+                            <td valign="top" class="value">${fieldValue(bean: promotorInstance, field: "seccion")}</td>
                             
                         </tr>
                     

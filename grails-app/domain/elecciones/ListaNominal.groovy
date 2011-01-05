@@ -3,7 +3,14 @@ package elecciones
 class ListaNominal {
 
   static constraints = {
-    idLista(unique:['entidad','distrito','municipio','seccion','tomoLista'])
+    idLista(unique:['entidad','distrito','municipio','seccion','tomoLista'],maxSize:40)
+    municipio(maxSize:10)
+    seccion(maxSize:10)
+    tomoLista(maxSize:20)
+    edad(maxSize:4)
+    sexo(maxSize:4)
+    nombre(maxSize:200)
+    claveIfe(maxSize:50)
   }
 
   static indexes = {
@@ -20,7 +27,7 @@ class ListaNominal {
   String nombre
   String direccion
   String claveIfe
-  String idLista;
+  String idLista
 
   
   String toString(){

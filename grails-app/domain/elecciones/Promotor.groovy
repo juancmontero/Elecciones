@@ -12,7 +12,7 @@ class Promotor {
   String telefonoCasa
   String telefonoMovil
   String email
-  String municipio
+  String seccion
 
   String toString(){
     return nombre

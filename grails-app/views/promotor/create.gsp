@@ -66,10 +66,10 @@
                         
                             <tr class="prop">
                                 <td valign="top" class="name">
-                                    <label for="municipio"><g:message code="promotor.municipio.label" default="Municipio" /></label>
+                                    <label for="seccion"><g:message code="promotor.seccion.label" default="Seccion" /></label>
                                 </td>
-                                <td valign="top" class="value ${hasErrors(bean: promotorInstance, field: 'municipio', 'errors')}">
-                                    <g:textField name="municipio" value="${promotorInstance?.municipio}" />
+                                <td valign="top" class="value ${hasErrors(bean: promotorInstance, field: 'seccion', 'errors')}">
+                                    <g:textField name="seccion" value="${promotorInstance?.seccion}" />
                                 </td>
                             </tr>
                         

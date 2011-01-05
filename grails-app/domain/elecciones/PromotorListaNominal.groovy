@@ -10,6 +10,7 @@ class PromotorListaNominal {
   //def List<ListaNominal>  personaRecomendada
 
   static constraints = {
+    promotor(unique:true)
   }
 
 }

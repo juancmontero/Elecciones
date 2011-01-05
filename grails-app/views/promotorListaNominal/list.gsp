@@ -28,9 +28,9 @@
                     <thead>
                         <tr>
                         
-                                        <g:sortableColumn property="id" title="${message(code: 'promotorListaNominal.personaRecomendada.label', default: 'Id')}" />
+                                        <g:sortableColumn property="id" title="${message(code: 'promotorListaNominal.personaRecomendada.label', default: 'Clave IFE')}" />
                         
-                                        <th><g:message code="promotorListaNominal.personaRecomendada.label" default="PersonaRecomendada" /></th>
+                                        <th><g:message code="promotorListaNominal.personaRecomendada.label" default="Persona Recomendada" /></th>
                         
                         </tr>
                     </thead>

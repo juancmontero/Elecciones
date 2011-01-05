@@ -25,6 +25,8 @@
                             <g:sortableColumn property="id" title="${message(code: 'votos.id.label', default: 'Id')}" />
                         
                             <g:sortableColumn property="fechaVoto" title="${message(code: 'votos.fechaVoto.label', default: 'Fecha Voto')}" />
+
+                            <th><g:message code="votos.persona.label" default="Id Lista" /></th>
                         
                             <th><g:message code="votos.persona.label" default="Persona" /></th>
                         
@@ -37,6 +39,8 @@
                             <td><g:link action="show" id="${votosInstance.id}">${fieldValue(bean: votosInstance, field: "id")}</g:link></td>
                         
                             <td><g:formatDate date="${votosInstance.fechaVoto}" /></td>
+
+                            <td>${fieldValue(bean: votosInstance, field: "persona.idLista")}</td>
                         
                             <td>${fieldValue(bean: votosInstance, field: "persona")}</td>
                         

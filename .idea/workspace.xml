@@ -15,30 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="80592d39-4b48-4a48-848f-cbc4e3d88196" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/elecciones/Votos.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/elecciones/Votos.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/promotor/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/promotor/edit.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/elecciones/UploadListaController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/elecciones/UploadListaController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/login/denied.gsp" afterPath="$PROJECT_DIR$/grails-app/views/login/denied.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/listaNominal/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/listaNominal/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/promotorListaNominal/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/promotorListaNominal/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" afterPath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/elecciones/Promotor.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/elecciones/Promotor.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/promotor/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/promotor/show.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/votos/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/votos/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/elecciones/AgregaVotosController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/elecciones/AgregaVotosController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/agregaVotos/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/agregaVotos/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/elecciones/ListaNominal.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/elecciones/ListaNominal.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/promotor/list.gsp" afterPath="$PROJECT_DIR$/grails-app/views/promotor/list.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/uploadLista/save.gsp" afterPath="$PROJECT_DIR$/grails-app/views/uploadLista/save.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/promotor/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/promotor/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/elecciones/PromotorListaNominal.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/elecciones/PromotorListaNominal.groovy" />
     </list>
     <ignored path="$USER_HOME_GRIFFON$/" />
     <ignored path="$USER_HOME_GRAILS$/" />
@@ -347,10 +324,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AgregaVotosController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AgregaVotosController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/elecciones/AgregaVotosController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="45" selection-start="2404" selection-end="2404" vertical-scroll-proportion="-2.0769231">
+            <state line="73" column="45" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.43820226">
               <folding />
             </state>
           </provider>
@@ -368,10 +345,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/votos/list.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="87" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.84782606">
+            <state line="28" column="87" selection-start="1447" selection-end="1447" vertical-scroll-proportion="-3.9795918">
               <folding />
             </state>
           </provider>
@@ -1073,7 +1050,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44051448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44051448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26045015" sideWeight="0.0" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1086,7 +1063,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.262215" sideWeight="0.5482315" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.262215" sideWeight="0.5482315" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.511254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.67720467" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1266,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/elecciones/AgregaVotosController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="45" selection-start="2404" selection-end="2404" vertical-scroll-proportion="-2.0769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/elecciones/Votos.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -1285,7 +1255,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/votos/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="87" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.84782606">
+        <state line="28" column="87" selection-start="1447" selection-end="1447" vertical-scroll-proportion="-3.9795918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/elecciones/AgregaVotosController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="45" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.43820226">
           <folding />
         </state>
       </provider>

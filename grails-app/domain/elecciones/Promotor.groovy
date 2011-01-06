@@ -2,6 +2,8 @@ package elecciones
 
 class Promotor {
 
+  static def belongsTo =  PromotorListaNominal
+
   static constraints = {
     nombre blank: false
     telefonoMovil blank: false

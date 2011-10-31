@@ -44,6 +44,7 @@ class UploadListaController {
         def String txt_distrito = params.get("distrito")
         def String txt_entidad = params.get("entidad")
         def String txt_seccion = params.get("seccion")
+        def Integer int_anio = Integer.parseInt(params.get("anio"))
 
         if(txt_tomoList.count <= 0)
           erroresBf.append("Tomo lista no debe ser vacio. <br/>")
@@ -57,6 +58,8 @@ class UploadListaController {
           erroresBf.append("Seccion no debe ser vacio. <br/>")
         if(archivoUpd.size <= 0)
           erroresBf.append("Debe seleccionar un archivo.")
+        if(int_anio == null)
+          erroresBf.append("A�o no debe ser vacio. <br/>")
 
         if (erroresBf.toString().count > 0)
         {
@@ -90,6 +93,7 @@ class UploadListaController {
               listaNominalInstance.nombre = lineas_archivo.get(i+3).trim() + " "  + lineas_archivo.get(i+4).trim() + " " + lineas_archivo.get(i+5).trim()
               listaNominalInstance.direccion = lineas_archivo.get(i+6).trim() + " "  + lineas_archivo.get(i+7).trim() + " " + lineas_archivo.get(i+8).trim()
               listaNominalInstance.claveIfe = lineas_archivo.get(i+9).trim()
+              listaNominalInstance.anio = int_anio
 
               println(listaNominalInstance)
              if(!listaNominalInstance.save(flush:true))

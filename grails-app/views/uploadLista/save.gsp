@@ -56,6 +56,14 @@
                     </tr>
                     <tr class="prop">
                       <td valign="top" class="name">
+                        <label>Año: </label>
+                      </td>
+                      <td valign="top" class="value">
+                        <g:textField name="anio"/> &nbsp; (ejemplo: 1982)<br/>
+                      </td>
+                    </tr>
+                    <tr class="prop">
+                      <td valign="top" class="name">
                                 <label>Tomo Lista: </label>
                       </td>
                       <td valign="top" class="value">

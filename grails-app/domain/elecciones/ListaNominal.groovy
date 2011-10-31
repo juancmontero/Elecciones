@@ -28,6 +28,7 @@ class ListaNominal {
   String direccion
   String claveIfe
   String idLista
+  Integer anio
 
   
   String toString(){
